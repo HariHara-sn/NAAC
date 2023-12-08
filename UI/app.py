@@ -33,9 +33,9 @@ def login():
 #    return render_template('login.html')
 
 
-@app.route('/home')
+@app.route('/')
 def home():
-   return render_template('home.html')
+   return render_template('index.html')
 @app.route('/hostel_issue_form')
 def hostel_issue_form():
    return render_template('hostel_issue_form.html')
